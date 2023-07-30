@@ -1,40 +1,72 @@
-# ArkOS
-Linux OS based on MacOS, iOS, Windows design and ecosystem
+# Ark OS
+Linux OS based on MacOS, iOS, Windows design and ecosystem (Build mostly in Rust)
 
-
-- Highly secure system
-    - Immutable OS 
-- Onboarding at launch via Markdown app
-- Offboarding automation
-- Group Policies / Directory Server (allows administrator to implement specific configurations for users and computers)
-- Software Deployment (installing, configuring, updating, and enabling an application)
-- Software repository / Software Center (to install applications, software updates, and upgrade System)
-- Software Updates Server (enables administrators to manage the distribution of updates and hotfixes released)
-- Remote Desktop Protocol / VNC
-- Mobile device management (administration of mobile devices, such as smartphones, tablet)
+Mobile / Tablets:
+- Onboarding App
+- Group Policies
+- App Store
+- Email Client
+- Password Management
+- Note App
+- Chat App
+- Browser with ad blocker and tracker blocker
 - Android Subsystem
 - Zed! Integration / Encrypted Container
-    - Locked Folder (outside the corporate network)
+- Local Firewall
+- Wireless share
+- Find My Device
+- Desktop Experience Mode
+- USB Blocker with Password
+- Wireguard / Proxy Client
+- No telemetry
+- Offboarding Automation
+
+Desktop:
+- Onboarding App
+- Group Policies
+- App Store
+- Email Client
+- Support App Client
+- Vault / Password Management Client
+- Note App
+- Chat App
+- Browser with ad blocker and tracker blocker and integrated password manager
+- Android Subsystem
+- Zed! Integration / Encrypted Container
+- Local Network Monitoring / Firewall
+- Remote Desktop Protocol / VNC
 - Roaming User Profile / Folder redirection / Offline Files
-- DNS / DHCP
-- Local Network Monitoring / Firewall 
-    - Proxy / SVPN integrated (Tailscale / Zerotier / Twingate)
-- Journaling system
+- Wireless share
+- Find My Device
+- Desktop Experience Mode
+- Powershell integration
 - Terminal (Windows Terminal style), GNU Lib with features (like cat -> bat / ls -> exa)
 - File explorer with native git integration (Dev Home / Dev Drive Microsoft style)
-- Vault / Password Management (Identity-based secrets and Encryption management system) - (Bitwarden style)
+- USB Blocker
+- Biometry and Password (Facial Recognition + Fingerprint + Code Combination)
+- Message System / Alert (Modal)
+- Wireguard / Proxy Client
+- Journaling system
+- No telemetry (except for Ticket and Data Activity Audit - IF NEEDED)
+- Offboarding Automation
+
+Server:
+- Group Policies / Directory Server
+- Software Deployment
+- Software Updates Server
+- Software Repository / Software Center
+- Mobile Device Management 
+- Files Server
+- Print Spooler
+- Data Activity Audit / Journaling System
+- Firewall / Local Network Monitoring
+- Ticketing System
+- Email Server
+- Vault (Identity-based secrets and Encryption management system) - (Bitwarden style)
     - Organizations support
     - Attachments and Send
     - Vault API support
-- Browser with ad blocker and tracker blocker and integrated password manager
-- Ticketing System / Support App Client
-- Email Client / Server
-- Notes app (Apple Notes style)
-- Chat app (E2E, Temporary msg, Teams like)
-- Wireless Share (AirDrop / Nearby Share)
-- Biometry and Password (Facial Recognition + Fingerprint + Code Combination)
-- Message System / Alert (Modal)
-- Learning management system (For Education)
-- Microsoft AD Compatibility
-    - Powershell integration 
-- No telemetry
+- Learning Management System (For Education)
+- Powershell Integration
+- No telemetry (except for Ticket and Data Activity Audit - IF NEEDED)
+And more…

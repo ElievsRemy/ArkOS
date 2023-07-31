@@ -38,7 +38,6 @@ Desktop:
 - Roaming User Profile / Folder redirection / Offline Files
 - Wireless share
 - Find My Device
-- Desktop Experience Mode
 - Powershell integration
 - Terminal (Windows Terminal style), GNU Lib with features (like cat -> bat / ls -> exa)
 - File explorer with native git integration (Dev Home / Dev Drive Microsoft style)
